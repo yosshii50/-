@@ -74,7 +74,7 @@
             TmpDbl = EndNo - StartNo
             TmpDbl = TmpDbl / StepNo
             TmpDbl = Math.Truncate(TmpDbl)
-            TmpDbl = rnd.Next(TmpDbl)
+            TmpDbl = rnd.Next(TmpDbl + 1)
             TmpDbl = TmpDbl * StepNo
             TmpDbl = StartNo + TmpDbl
 
